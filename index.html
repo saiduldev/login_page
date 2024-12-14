@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="flex justify-center items-center bg-gray-200 h-screen">
+        <div class="w-96 p-6 shadow-lg bg-white rounded-md">
+            <h1 class="text-2xl block text-center mb-5 font-semibold">Login</h1>
+            <div class="mt-3">
+                <input type="email" class="border w-full px-2 py-2 focus:outline-none  focus:border-gray-600 rounded-md" placeholder="Email" required>
+            </div>
+            <div class="mt-3">
+                <input type="password" class="border w-full px-2 py-2 focus:outline-none focus:border-gray-600 rounded-md" placeholder="Password"required>
+            </div>
+            <div class="flex justify-between mt-1">
+                <div>
+                    <input type="checkbox">
+                    <label  class="text-gray-600">Show Password</label>
+                </div>
+                <div>
+                    <a class="text-indigo-500" href="#">Forgot Password?</a>
+                </div>
+            </div>
+            <div class="mt-4">
+                <button type="submit" class="border-2 border-indigo-500 bg-indigo-500 text-white py-1 w-full rounded-md ">LOGIN</button>
+            </div>
+            
+            <div class="flex justify-center items-center gap-1 mb-8">
+                <div>
+                    <h1 class="text-gray-600">Don't have an account?</h1>
+                
+                </div>
+                <div>
+                    <h2 class="text-indigo-500">Sign up</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
